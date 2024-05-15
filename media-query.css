@@ -1,0 +1,106 @@
+@media screen and (max-width: 991px){
+    .nav-toggle{
+        display: block;
+        margin-right: 20px;
+    }
+    .nav-links ul{
+        display: none;
+    }
+    .sm-blog-container{
+        gap: 20px;
+    }
+    .sm-blog-card{
+        width: calc(50% - 10px);
+        height: 180px;
+    }
+    .big-blog-section{
+        padding: 10px 10px 10px 10px;
+    }
+    /* nav bar responsive */
+
+    .main-nav{
+        overflow: initial;
+    }
+    .nav-links{
+        position: absolute;
+        color: black;
+        background-color: red;
+    }
+    .nav-links ul{
+        flex-direction: column;
+    }
+
+    
+}
+@media screen and (max-width: 767px){
+    .header-section{
+        flex-direction: column-reverse;
+    }
+    .header-left{
+        margin-top: 30px;
+        text-align: center;
+        max-width: 100vw;
+        border-bottom: 1px solid brown;
+    }
+    .internshala-btn{
+        width: 100%;
+    }
+    .big-blog-container{
+        flex-direction: column;
+        padding: 0px;
+    }
+    .blog-description{
+        padding: 0px 20px;
+    }
+    .about-box{
+        display: flex;
+        flex-direction: column;
+    }
+    .about-box :nth-child(1) img{
+        height: 400px;
+        /* width: 300px; */
+        
+    }
+    .about-box :nth-child(2){
+        padding: 20px;
+    }
+    .big-blog-section{
+        padding: 10px 10px 10px 10px;
+    }
+}
+@media screen and (max-width: 479px){
+    h1{
+        font-size: 2rem;
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+    p{
+        font-size: 1rem;
+    }
+    .sm-blog-card{
+        width: 100%;
+    }
+    footer section ul{
+        padding-top: 2px;
+        padding-bottom: 2px;
+        text-align: center;
+    }
+    .footer-mobile{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-copyright{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+    .banner{
+        align-items: center;
+        padding: 15px 5px;
+    }
+    .big-blog-section{
+        padding: 10px 10px 10px 10px;
+    }
+}
