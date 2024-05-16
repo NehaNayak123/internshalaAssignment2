@@ -172,7 +172,8 @@ header{
     position: relative;
     height: 300px;
     background: black;
-    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url(./sm-img1.jpg);
+    background: linear-gradient(rgb(0, 0, 0, 0.1),
+     rgb(0, 0, 0, 0.8)), url(../images/sm-img1.jpg);
     background-size: cover;
     transition: 0.2s ease-in-out;
 }
@@ -187,15 +188,15 @@ header{
     color: white;
 }
 .sm-blog-container :nth-child(2){
-    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url(./sm-img2.jpg);
+    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url(../images/sm-img2.jpg);
     background-size: cover;
 }
 .sm-blog-container :nth-child(3){
-    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url(./sm-img3.jpg);
+    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url(../images/sm-img3.jpg);
     background-size: cover;
 }
 .sm-blog-container :nth-child(4){
-    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url(./sm-img4.jpg);
+    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url(../images/sm-img4.jpg);
     background-size: cover;
 }
 /* About section */
